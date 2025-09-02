@@ -1,7 +1,7 @@
 {
   "chain_name": "axelar",
-  "api": ["https://rest.axelar.lava.build/lava-referer-97409c72-1a82-4861-8651-119c15151cbe"],
-  "rpc": ["https://tm.axelar.lava.build/lava-referer-97409c72-1a82-4861-8651-119c15151cbe"],
+  "api": ["http://localhost:26657"],
+  "rpc": ["http://localhost:26657"],
   "snapshot_provider": "",
   "sdk_version": "0.45.6",
   "coin_type": "118",

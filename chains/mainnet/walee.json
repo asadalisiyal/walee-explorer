@@ -1,0 +1,42 @@
+{
+  "chain_name": "walee",
+  "api": [
+    {
+      "address": "http://localhost:1317",
+      "provider": "Local"
+    }
+  ],
+  "rpc": [
+    {
+      "address": "http://localhost:26657",
+      "provider": "Local"
+    }
+  ],
+  "grpc": [
+    {
+      "address": "localhost:9090",
+      "provider": "Local"
+    }
+  ],
+  "sdk_version": "0.45.1",
+  "coin_type": "118",
+  "min_tx_fee": "800",
+  "assets": [
+    {
+      "base": "uwle",
+      "symbol": "WLE",
+      "exponent": "6",
+      "coingecko_id": "wle",
+      "logo": "https://example.com/wle.svg"
+    }
+  ],
+  "addr_prefix": "wle",
+  "theme_color": "#3b82f6",
+  "logo": "https://example.com/wle.svg",
+  "faucet": {
+    "amount": "5000000uwle",
+    "ip_limit": "1",
+    "address_limit": "10",
+    "fees": "1000uwle"
+  }
+}
