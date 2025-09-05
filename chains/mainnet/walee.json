@@ -2,19 +2,19 @@
   "chain_name": "walee",
   "api": [
     {
-      "address": "http://localhost:1317",
+      "address": "http://57.180.3.135:1317",
       "provider": "Local"
     }
   ],
   "rpc": [
     {
-      "address": "http://localhost:26657",
+      "address": "http://57.180.3.135:26657",
       "provider": "Local"
     }
   ],
   "grpc": [
     {
-      "address": "localhost:9090",
+      "address": "http://57.180.3.135:9090",
       "provider": "Local"
     }
   ],
