@@ -2,19 +2,19 @@
   "chain_name": "walee",
   "api": [
     {
-      "address": "http://57.180.3.135:1317",
+      "address": "https://api.walee.pk",
       "provider": "Local"
     }
   ],
   "rpc": [
     {
-      "address": "http://57.180.3.135:26657",
+      "address": "https://rpc.walee.pk",
       "provider": "Local"
     }
   ],
   "grpc": [
     {
-      "address": "http://57.180.3.135:9090",
+      "address": "https://grpc.walee.pk",
       "provider": "Local"
     }
   ],
@@ -27,7 +27,7 @@
       "symbol": "WLE",
       "exponent": "6",
       "coingecko_id": "wle",
-      "logo": "https://example.com/wle.svg"
+      "logo": "https://freeimage.host/i/KCsrzAX"
     }
   ],
   "addr_prefix": "wle",
