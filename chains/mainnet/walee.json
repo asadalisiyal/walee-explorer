@@ -27,12 +27,12 @@
       "symbol": "WLE",
       "exponent": "6",
       "coingecko_id": "wle",
-      "logo": "https://example.com/wle.svg"
+      "logo": "/walee.png"
     }
   ],
   "addr_prefix": "wle",
   "theme_color": "#3b82f6",
-  "logo": "https://example.com/wle.svg",
+  "logo": "/walee.png",
   "faucet": {
     "amount": "5000000uwle",
     "ip_limit": "1",

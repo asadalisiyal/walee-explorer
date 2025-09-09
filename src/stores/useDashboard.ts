@@ -58,7 +58,11 @@ export function convertFromLocal(lc: LocalChainConfig): ChainConfig {
     };
   }
   conf.features = lc.features;
-  conf.logo = lc.logo.startsWith('http') ? lc.logo : `https://ping.pub${lc.logo}`;
+  conf.logo = lc.logo.startsWith('http')
+    ? lc.logo
+    : lc.logo === '/walee.png'
+    ? '/walee.png'
+    : `https://ping.pub${lc.logo}`;
   conf.keplrFeatures = lc.keplr_features;
   conf.keplrPriceStep = lc.keplr_price_step;
   conf.themeColor = lc.theme_color;
