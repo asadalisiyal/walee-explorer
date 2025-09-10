@@ -54,3 +54,20 @@ You can hire us by submitting an issue and fund the issue on [IssueHunter](https
 
 Developers: @liangping @dingyiming
 
+## Getting Started
+
+**Node version required:** `v24.5.0`  
+**npm version required:** `11.5.1`
+
+### Install dependencies
+
+```bash
+yarn install
+```
+
+### Run the project
+
+```bash
+yarn serve
+```
+
