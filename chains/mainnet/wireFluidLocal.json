@@ -33,7 +33,7 @@
   "addr_prefix": "wire",
   "theme_color": "#3b82f6",
   "logo": "/walee.png",
-  "chain_id": "9001",
+  "chain_id": "wire-001",
   "bech32_prefix": "wire",
   "denom": "awire",
   "display_denom": "WIRE",
@@ -41,14 +41,20 @@
   "min_gas_price": "0",
   "gas_price_step": {
     "low": 0,
-    "average": 10000000,
-    "high": 25000000
+    "average": 5000000000,
+    "high": 10000000000
   },
-  "features": ["eth-address-gen", "eth-key-sign"],
-  "keplr_features": ["eth-address-gen", "eth-key-sign"],
+  "features": [
+    "eth-address-gen",
+    "eth-key-sign"
+  ],
+  "keplr_features": [
+    "eth-address-gen",
+    "eth-key-sign"
+  ],
   "keplr_price_step": {
     "low": 0,
-    "average": 10000000,
-    "high": 25000000
+    "average": 5000000000,
+    "high": 10000000000
   }
 }
