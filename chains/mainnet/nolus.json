@@ -1,5 +1,5 @@
 {
-  "chain_name": "nolus",
+  "chain_name": "nolus--000",
   "coingecko": "nolus",
   "api": [
     { "provider": "Nolus", "address": "https://pirin-cl.nolus.network:1317" },

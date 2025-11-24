@@ -1,5 +1,5 @@
 {
-  "chain_name": "wireFluid Local",
+  "chain_name": "EVMD Local",
   "api": [
     {
       "address": "http://localhost:1317",
@@ -18,27 +18,27 @@
       "provider": "Local"
     }
   ],
-  "sdk_version": "wire (commit 08d5082)",
+  "sdk_version": "v0.54.0-beta.0",
   "min_tx_fee": "0",
   "assets": [
     {
-      "base": "awire",
-      "symbol": "WIRE",
+      "base": "atest",
+      "symbol": "TEST",
       "exponent": "18",
       "coingecko_id": "",
       "logo": "/walee.png"
     }
   ],
-  "addr_prefix": "wire",
+  "addr_prefix": "cosmos",
   "coin_type": "60",
   "theme_color": "#3b82f6",
   "logo": "/walee.png",
-  "chain_id": "wire-1",
-  "bech32_prefix": "wire",
-  "denom": "awire",
-  "display_denom": "wire",
+  "chain_id": "9001",
+  "bech32_prefix": "cosmos",
+  "denom": "atest",
+  "display_denom": "test",
   "decimals": 18,
-  "min_gas_price": "0awire",
+  "min_gas_price": "0atest",
   "gas_price_step": {
     "low": 0,
     "average": 5000000000,
@@ -49,9 +49,11 @@
     "average": 5000000000,
     "high": 10000000000
   },
+  
   "keplr_features": [
     "eth-secp256k1-cosmos"
   ],
+
   "features": [
     "eth-secp256k1-cosmos"
   ]
