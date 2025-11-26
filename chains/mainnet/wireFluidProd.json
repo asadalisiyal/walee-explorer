@@ -1,5 +1,5 @@
 {
-  "chain_name": "WFFFF Prod",
+  "chain_name": "wireFluid Prod",
   "api": [
     {
       "address": "https://api.wirefluid.com",
@@ -18,8 +18,7 @@
       "provider": "Local"
     }
   ],
-  "sdk_version": "0.53.4",
-  "coin_type": "118",
+  "sdk_version": "wire (commit 08d5082)",
   "min_tx_fee": "0",
   "assets": [
     {
@@ -31,30 +30,29 @@
     }
   ],
   "addr_prefix": "wire",
+  "coin_type": "60",
   "theme_color": "#3b82f6",
   "logo": "/walee.png",
   "chain_id": "wire-1",
   "bech32_prefix": "wire",
   "denom": "awire",
-  "display_denom": "WIRE",
+  "display_denom": "wire",
   "decimals": 18,
-  "min_gas_price": "0",
+  "min_gas_price": "0awire",
   "gas_price_step": {
     "low": 0,
     "average": 5000000000,
     "high": 10000000000
   },
-  "features": [
-    "eth-address-gen",
-    "eth-key-sign"
-  ],
-  "keplr_features": [
-    "eth-address-gen",
-    "eth-key-sign"
-  ],
   "keplr_price_step": {
     "low": 0,
     "average": 5000000000,
     "high": 10000000000
-  }
+  },
+  "keplr_features": [
+    "eth-secp256k1-cosmos"
+  ],
+  "features": [
+    "eth-secp256k1-cosmos"
+  ]
 }
