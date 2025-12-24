@@ -44,16 +44,6 @@
     "average": 5000000000,
     "high": 10000000000
   },
-  "keplr_price_step": {
-    "low": 0,
-    "average": 5000000000,
-    "high": 10000000000
-  },
-  
-  "keplr_features": [
-    "eth-secp256k1-cosmos"
-  ],
-
   "features": [
     "eth-secp256k1-cosmos"
   ]

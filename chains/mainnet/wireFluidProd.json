@@ -40,19 +40,23 @@
   "decimals": 18,
   "min_gas_price": "0awire",
   "gas_price_step": {
-    "low": 0,
-    "average": 5000000000,
-    "high": 10000000000
+    "low": 10000000000,
+    "average": 15000000000,
+    "high": 25000000000
   },
   "keplr_price_step": {
-    "low": 0,
-    "average": 5000000000,
-    "high": 10000000000
+    "low": 10000000000,
+    "average": 15000000000,
+    "high": 25000000000
   },
   "keplr_features": [
+    "eth-address-gen",
+    "eth-key-sign",
     "eth-secp256k1-cosmos"
   ],
   "features": [
+    "eth-address-gen",
+    "eth-key-sign",
     "eth-secp256k1-cosmos"
   ]
 }
